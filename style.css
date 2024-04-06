@@ -1,0 +1,21 @@
+.heading{
+    color: blue;
+}
+
+
+#paragraph{
+    color: red;
+}
+
+button{
+    background-color: red;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    background-color: aqua;
+    border: 2px solid black;
+
+}
