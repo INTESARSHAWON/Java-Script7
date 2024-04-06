@@ -14,3 +14,8 @@ console.dir(myParagrah);
 let myHeading = document.getElementsByClassName("heading");
 console.dir(myHeading);
 // class HTML COLLECTION akare ashe/ eta array'r motoi index akare ashe
+
+
+//tag->getElementsByTagName()
+let anotherParagraph = document.getElementsByTagName("p");
+console.dir(anotherParagraph);
