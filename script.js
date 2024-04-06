@@ -8,3 +8,9 @@ console.dir(document.body);
 //id-> getElementById()
 let myParagrah = document.getElementById("paragraph");
 console.dir(myParagrah);
+
+
+//class ->getElementsByClassName()
+let myHeading = document.getElementsByClassName("heading");
+console.dir(myHeading);
+// class HTML COLLECTION akare ashe/ eta array'r motoi index akare ashe
