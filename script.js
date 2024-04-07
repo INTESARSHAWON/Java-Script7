@@ -19,3 +19,8 @@ console.dir(myHeading);
 //tag->getElementsByTagName()
 let anotherParagraph = document.getElementsByTagName("p");
 console.dir(anotherParagraph);
+
+//query selector-> eta id, class tag sobkichur kaj korte pare// eta node (tree er parent,chlid) return kore
+let firstTagElement = document.querySelector("p");
+console.dir(firstTagElement);
+// eta sudhu firstElement e return korbe
