@@ -41,3 +41,9 @@ console.dir(firstIdElement);
 let firstClassElement = document.querySelector(".heading");
 console.dir(firstClassElement);
 
+
+let div = document.querySelector("div");
+console.dir (div);
+// console a giye dekhte hoy...,div ashbe, div.innertext dile text ashbe, div.innerhtml dile pura code eshe porbe
+//div.textContent a dile hidden item o show korbe...,eigula DOM manuplation a behi use hoy, bakigula hoy na 
+
