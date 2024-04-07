@@ -36,3 +36,8 @@ console.dir(allTagElement);
 let firstIdElement = document.querySelector("#paragraph");
 console.dir(firstIdElement);
 
+
+// style er motoi CLASS niye likhte gele querySelector ba querySelectorAll a . use korte hoy
+let firstClassElement = document.querySelector(".heading");
+console.dir(firstClassElement);
+
