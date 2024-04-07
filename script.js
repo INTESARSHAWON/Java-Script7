@@ -24,3 +24,9 @@ console.dir(anotherParagraph);
 let firstTagElement = document.querySelector("p");
 console.dir(firstTagElement);
 // eta sudhu firstElement e return korbe
+
+
+// querySelectorAll -> eta id, class tag sobkichur kaj korte pare// eta node (tree er parent,chlid) return kore
+let allTagElement = document.querySelectorAll("p");
+console.dir(allTagElement);
+// eta pura node e return korbe
