@@ -30,3 +30,9 @@ console.dir(firstTagElement);
 let allTagElement = document.querySelectorAll("p");
 console.dir(allTagElement);
 // eta pura node e return korbe
+
+
+// style er motoi ID niye likhte gele querySelector ba querySelectorAll a # use korte hoy
+let firstIdElement = document.querySelector("#paragraph");
+console.dir(firstIdElement);
+
