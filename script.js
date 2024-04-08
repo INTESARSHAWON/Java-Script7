@@ -57,8 +57,28 @@ h5.innerText= h5.innerText + ' from apna college students' ;
 
 
 
+// let divs = document.querySelectorAll(".box");
+// divs[0].innerText= "shawon";
+// divs[1].innerText= "married";
+// divs[2].innerText= "nawshin";
+// console.dir (divs);
+
+
+
+
+//for of loop diye onkgula div change kora
 let divs = document.querySelectorAll(".box");
-divs[0].innerText= "shawon";
-divs[1].innerText= "married";
-divs[2].innerText= "nawshin";
-console.dir (divs);
+
+let idx=1;
+for (div of divs){
+    div.innerText= `the number of the box is ${idx}`;
+    idx++;
+}
+// evabe loop diye thousand line er code change kora jay
+
+
+
+
+
+
+
