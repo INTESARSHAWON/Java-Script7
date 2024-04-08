@@ -47,3 +47,11 @@ console.dir (div);
 // console a giye dekhte hoy...,div ashbe, div.innertext dile text ashbe, div.innerhtml dile pura code eshe porbe
 //div.textContent a dile hidden item o show korbe...,eigula DOM manuplation a behi use hoy, bakigula hoy na 
 
+
+
+
+//exercise
+let h5 = document.querySelector("h5");
+console.dir (h5.innerText);
+h5.innerText= h5.innerText + ' from apna college students' ;
+
