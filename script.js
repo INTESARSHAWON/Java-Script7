@@ -55,3 +55,10 @@ let h5 = document.querySelector("h5");
 console.dir (h5.innerText);
 h5.innerText= h5.innerText + ' from apna college students' ;
 
+
+
+let divs = document.querySelectorAll(".box");
+divs[0].innerText= "shawon";
+divs[1].innerText= "married";
+divs[2].innerText= "nawshin";
+console.dir (divs);
